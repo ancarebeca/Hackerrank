@@ -1,4 +1,4 @@
-
+### Day 18: Queues and Stacks
 https://www.hackerrank.com/challenges/30-queues-stacks
 
 A palindrome is a word, phrase, number, or other sequence of characters which reads the same backwards and forwards. Can you determine if a given string, s, is a palindrome?
@@ -7,24 +7,24 @@ To solve this challenge, we must first take each character in s, enqueue it in a
 
 Write the following declarations and implementations:
 
-Two instance variables: one for your , and one for your .
-A void pushCharacter(char ch) method that pushes a character onto a stack.
-A void enqueueCharacter(char ch) method that enqueues a character in the  instance variable.
-A char popCharacter() method that pops and returns the character at the top of the  instance variable.
-A char dequeueCharacter() method that dequeues and returns the first character in the  instance variable.
+1) Two instance variables: one for your stack, and one for your queue.
+2) A void pushCharacter(char ch) method that pushes a character onto a stack.
+3) A void enqueueCharacter(char ch) method that enqueues a character in the queue instance variable.
+4) A char popCharacter() method that pops and returns the character at the top of the stack instance variable.
+5) A char dequeueCharacter() method that dequeues and returns the first character in the queue instance variable.
 
  **Input Format **
 
-You do not need to read anything from stdin. The locked stub code in your editor reads a single line containing string . It then calls the methods specified above to pass each character to your instance variables.
+You do not need to read anything from stdin. The locked stub code in your editor reads a single line containing string s. It then calls the methods specified above to pass each character to your instance variables.
 
  **Constraints**
 
- s is composed of lowercase English letters.
+- s is composed of lowercase English letters.
  
  **Output Format**
 
 You are not responsible for printing any output to stdout. 
-If your code is correctly written and  is a palindrome, the locked stub code will print ; otherwise, it will print 
+If your code is correctly written and  s is a palindrome, the locked stub code will print "The word, s, is a palindrome"; otherwise, it will print "The word, s, is a palindrome"
 
 
  **Sample Input **
