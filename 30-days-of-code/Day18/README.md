@@ -8,9 +8,13 @@ To solve this challenge, we must first take each character in s, enqueue it in a
 Write the following declarations and implementations:
 
 1) Two instance variables: one for your stack, and one for your queue.
+
 2) A void pushCharacter(char ch) method that pushes a character onto a stack.
+
 3) A void enqueueCharacter(char ch) method that enqueues a character in the queue instance variable.
+
 4) A char popCharacter() method that pops and returns the character at the top of the stack instance variable.
+
 5) A char dequeueCharacter() method that dequeues and returns the first character in the queue instance variable.
 
 **Input Format**
