@@ -7,9 +7,6 @@ interface AdvancedArithmetic {
 
 class Calculator implements AdvancedArithmetic {
 
-	Calculator() {
-	}
-
 	public int divisorSum(int n) {
 		int numberOfDivisors = 0;
 		for (int i = 1; i <= n; i++) {
