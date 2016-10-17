@@ -13,7 +13,7 @@ Write the following declarations and implementations:
 4) A char popCharacter() method that pops and returns the character at the top of the stack instance variable.
 5) A char dequeueCharacter() method that dequeues and returns the first character in the queue instance variable.
 
-**Input Format **
+**Input Format**
 
 You do not need to read anything from stdin. The locked stub code in your editor reads a single line containing string s. It then calls the methods specified above to pass each character to your instance variables.
 
