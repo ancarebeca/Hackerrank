@@ -14,7 +14,6 @@ class Calculator implements AdvancedArithmetic {
 				numberOfDivisors += i;
 			}
 		}
-
 		return numberOfDivisors;
 	}
 }
